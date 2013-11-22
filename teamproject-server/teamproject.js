@@ -82,10 +82,16 @@ app.get("/api/todo/:id/:depth", routes.todo.get_with_depth); // 뎁스로 조회
 app.post("/api/todo/:id/comment", routes.comment.post_comment);   // 코멘트 작성
 app.del("/api/todo/:id/comment/:cid", routes.comment.remove_comment); // 코멘트 삭제
 
-
 app.search("/api/search/user/:query",   routes.search.user); // 유저 검색
 
-app.use(express.static(__dirname + "/../teamproject-client/"));
+// static 파일 전송에 nginx등 다른 서버를 사용하지 않는 경우 아래 코드를 이용
+
+/*
+var static_folder = require("path")
+  .normalize(__dirname + "/../teamproject_frontend"); // html frontend path 명시
+
+app.use(express.static(static_folder));
+*/
 
 http.createServer(app).listen(app.get("port"), function(){
   console.log("TeamProject server listening on port " + app.get("port"));
