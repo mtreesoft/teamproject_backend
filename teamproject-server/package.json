@@ -1,0 +1,21 @@
+{
+  "name": "teamproject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "*",
+    "express": "3.4.4",
+    "express-validator": "*",
+    "connect": "*",
+    "connect-mongo": "*",
+    "i18n": "*",
+    "MD5": "*",
+    "mongoose": "*",
+    "mongoose-tree": "*",
+    "pm2": "*",
+    "redis": "*"
+  }
+}

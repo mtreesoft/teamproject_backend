@@ -1,0 +1,12 @@
+{
+  "name": "teamproject-mailer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node mailer.js"
+  },
+  "dependencies": {
+    "nodemailer": "*",
+    "redis": "*"
+  }
+}

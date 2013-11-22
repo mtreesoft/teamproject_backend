@@ -1,0 +1,21 @@
+{
+	"Invalid user id or password.": "아이디나 패스워드가 잘못되었습니다.",
+	"You are already registered.": "이미 가입된 아이디 입니다.",
+	"Invalid e-mail or password": "아이디 또는 패스워드가 잘못되었습니다.",
+	"Password is invalid. (6~30 digits)": "패스워드가 잘못입력되었습니다.(6자~30자)",
+	"e-mail is invalid.": "이메일이 잘못되었습니다.",
+	"hash is invalid.": "확인 코드가 잘못되었습니다.",
+	"user not found.": "회원정보가 존재하지 않습니다.",
+	"email auth key is invalid.": "이메일 인증키가 잘못되었습니다.",
+	"not logined.": "로그인 되지 않았습니다.",
+	"title is too short.": "제목이 입력되지 않았거나 너무 짧습니다.(6자~120자)",
+	"Todo is not found": "Todo가 없습니다.",
+	"e-mail is required.": "이메일은 필수 입력사항입니다.",
+	"password is required.": "패스워드를 입력해주세요.",
+	"password is too short.": "패스워드 길이가 올바르지 않습니다.(6~20자)",
+	"search query is required.": "검색어를 입력하세요.",
+	"search query is too short.": "검색어가 너무 짧습니다.(2자 이상)",
+	"title is required.": "제목을 입력해 주세요.",
+	"Parent Todo is not found": "상위 Todo존재하지 않습니다.",
+	"Email Address are not verified!": "이메일 주소가 확인되지 않았습니다."
+}
