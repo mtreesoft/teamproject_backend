@@ -17,5 +17,6 @@
 	"search query is too short.": "검색어가 너무 짧습니다.(2자 이상)",
 	"title is required.": "제목을 입력해 주세요.",
 	"Parent Todo is not found": "상위 Todo존재하지 않습니다.",
-	"Email Address are not verified!": "이메일 주소가 확인되지 않았습니다."
+	"Email Address are not verified!": "이메일 주소가 확인되지 않았습니다.",
+	"text is required.": "내용을 입력해 주세요."
 }
