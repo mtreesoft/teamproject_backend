@@ -66,11 +66,11 @@ exports.list = function(req, res, next) {
 
 		if (error) return next(error);
 
-		Todo.find({users: req.session.user._id, deleted: false}, function(error, items) {
+		Todo.find({users: req.session.user._id, deleted: false, $where:"this.path==this._id"}, function(error, items) {
 			
 			if (error)
 				return next(new TeamProjectError(error));
-			
+
 			if (!items)
 				return next(new TeamProjectError(res.__("Todo is not found")));
 			
